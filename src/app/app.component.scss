@@ -35,6 +35,10 @@
     background-color: #1976d2;
     color: white;
     font-weight: 600;
+    span {
+        padding: 10px;
+        cursor: pointer;
+    }
   }
 
   .toolbar img {
@@ -57,12 +61,17 @@
   }
 
   .content {
+    // display: flex;
+    // margin: 82px auto 32px;
+    // padding: 0 16px;
+    // max-width: 960px;
+    // flex-direction: column;
+    // align-items: center;
     display: flex;
-    margin: 82px auto 32px;
-    padding: 0 16px;
-    max-width: 960px;
+    margin-top: 85px;
+    padding: 0 40px;
     flex-direction: column;
-    align-items: center;
+
   }
 
   svg.material-icons {

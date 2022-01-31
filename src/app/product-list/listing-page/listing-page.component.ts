@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./listing-page.component.scss']
 })
 export class ListingPageComponent implements OnInit {
+  list: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  toggleClass(val:boolean){
+    this.list = val;
+  }
 }

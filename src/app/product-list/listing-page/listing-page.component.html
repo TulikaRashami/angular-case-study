@@ -3,13 +3,13 @@
 <div class="wrapper">
     <div class="view">
         <p>View as:</p>	
-        <a href="#" class="icon-grid"></a>
-	    <a href="#" class="icon-list"></a>
+        <a (click)="toggleClass(false)" class="icon-grid" title="Grid"></a>
+	    <a  (click)="toggleClass(true)" class="icon-list" title="List"></a>
         
     </div>
     
     <div class="products category">
-        <ul class="">
+        <ul [ngClass]="list ? 'list' : ''">
             <li>
                 <div class="itemIMG">
                     <img src="https://webdevtrick.com/wp-content/uploads/macbook.jpg">
