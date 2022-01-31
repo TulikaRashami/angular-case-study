@@ -1,0 +1,34 @@
+{
+    "data":[
+         {
+        "name":"Lakme",
+        "desc":"Lipstick",
+        "price":"50"
+    },
+     {
+        "name":"Lakme",
+        "desc":"Lipstick",
+        "price":"50"
+    },
+     {
+        "name":"Lakme",
+        "desc":"Lipstick",
+        "price":"50"
+    },
+     {
+        "name":"Lakme",
+        "desc":"Lipstick",
+        "price":"50"
+    },
+     {
+        "name":"Lakme",
+        "desc":"Lipstick",
+        "price":"50"
+    },
+     {
+        "name":"Lakme",
+        "desc":"Lipstick",
+        "price":"50"
+    }
+]
+}

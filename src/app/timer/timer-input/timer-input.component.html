@@ -1,0 +1,13 @@
+<app-timer-display [timer]="timer"></app-timer-display>
+<div class="form-container">
+    <!-- <form> -->
+        <label> Enter Timer Limit</label>
+        <input type='number' [(ngModel)]="timer">
+        <button (click)="startTimer()">Start/Pause</button>
+        <button (click)="stopTimer()">Reset</button>
+    <!-- </form> -->
+    <div>
+        
+        <p *ngFor="let timer of timerList">paused at {{timer}}</p>
+    </div>
+</div>
